@@ -1,0 +1,57 @@
+head {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+}
+
+.maindiv {
+    position: absolute;
+    display: flex;   
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.flexright {
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexleft {
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formlabel {
+    text-align: left;
+}
+
+.logdiv table {
+    margin-top: 20px;
+    border: 0;
+    border-top: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.messagebox {
+    font-size: 12px;
+    color: red;
+}
